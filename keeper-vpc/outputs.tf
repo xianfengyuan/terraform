@@ -18,3 +18,6 @@ output "availability_zones" {
   value = module.vpc.availability_zones
 }
 
+output "traffic_group_id" {
+  value = module.keeper-traffic.group_id
+}
